@@ -1,0 +1,32 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment variables (NEVER upload passwords)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sample generated data (large files)
+data/sample/*.csv
+data/sample/*.json
+
+# Testing cache
+.pytest_cache/
+.coverage
+
+# VS Code
+.vscode/
+
+# Windows files
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# Backup files
+app_backup.py
